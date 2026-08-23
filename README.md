@@ -31,7 +31,7 @@ An end-to-end machine learning project that predicts EMI eligibility and estimat
 | Task | Selected model | Test result |
 |---|---|---|
 | EMI eligibility classification | XGBoost | Accuracy: 97.17%; weighted F1-score: 96.91%; ROC-AUC: 0.9981 |
-| Maximum safe EMI regression | XGBoost | RMSE: INR 878.47; MAE: INR 415.67; R-squared: 0.9871 |
+| Maximum safe EMI regression | XGBoost | RMSE:  878.47; MAE:  415.67; R-squared: 0.9871 |
 
 ## Run the Dashboard Locally
 
@@ -78,6 +78,8 @@ Run all cells from the notebook directory so its relative data and artifact path
 5. Click **Deploy**. Streamlit installs the packages in `requirements.txt` automatically.
 
 The dashboard only uses `data/dashboard_sample.csv`, trained model artifacts, and result files. It does **not** require the 400,000-row training dataset to run on Streamlit Cloud.
+
+## Live Demo: [Try EMIPredit Live](https://gmpe5n3zcrolt3i6dlqfzx.streamlit.app/)
 
 ## Dataset Guidance
 
