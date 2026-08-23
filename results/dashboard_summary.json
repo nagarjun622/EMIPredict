@@ -1,0 +1,19 @@
+{
+  "best_classification_model": "XGBoost",
+  "best_regression_model": "XGBoost",
+  "classification_test_metrics": {
+    "Model": "XGBoost",
+    "Accuracy": 0.9717061923583663,
+    "Precision": 0.9692643430951974,
+    "Recall": 0.9717061923583663,
+    "F1-Score": 0.969135439540781,
+    "ROC-AUC": 0.998136934803377
+  },
+  "regression_test_metrics": {
+    "Model": "XGBoost",
+    "RMSE": 878.4715189037576,
+    "MAE": 415.66973222236425,
+    "R\u00c2\u00b2": 0.9871299941100271,
+    "MAPE": 16.181274006622807
+  }
+}
