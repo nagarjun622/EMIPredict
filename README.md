@@ -8,7 +8,7 @@ An end-to-end machine learning project that predicts EMI eligibility and estimat
 - **Regression:** Estimates `max_monthly_emi`, the recommended affordable monthly EMI.
 - **Data scale:** Analyses 400,000 financial profiles across five EMI scenarios.
 - **Best models:** XGBoost for classification and regression.
-- **Test performance:** 97.17% classification accuracy and INR 878.47 regression RMSE.
+- **Test performance:** 97.17% classification accuracy and 878.47 regression RMSE.
 
 ## Repository Structure
 
