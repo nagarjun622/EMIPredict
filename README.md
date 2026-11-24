@@ -2,6 +2,8 @@
 
 An end-to-end machine learning project that predicts EMI eligibility and estimates the maximum safe monthly EMI for an applicant. The project combines financial data preparation, feature engineering, model comparison, MLflow experiment tracking, and a deployable Streamlit dashboard.
 
+## Live Demo: [Try EMIPredit Live](https://gmpe5n3zcrolt3i6dlqfzx.streamlit.app/)
+
 ## Project Highlights
 
 - **Classification:** Categorises applicants as `Eligible`, `High_Risk`, or `Not_Eligible`.
@@ -78,8 +80,6 @@ Run all cells from the notebook directory so its relative data and artifact path
 5. Click **Deploy**. Streamlit installs the packages in `requirements.txt` automatically.
 
 The dashboard only uses `data/dashboard_sample.csv`, trained model artifacts, and result files. It does **not** require the 400,000-row training dataset to run on Streamlit Cloud.
-
-## Live Demo: [Try EMIPredit Live](https://gmpe5n3zcrolt3i6dlqfzx.streamlit.app/)
 
 ## Dataset Guidance
 
